@@ -3,7 +3,7 @@ from statistics import mean
 from typing import Optional
 
 from pydantic import validator
-from sqlmodel import Field, SQLModel, select
+from sqlmodel import Field, SQLModel
 
 
 class Beer(SQLModel, table=True):
